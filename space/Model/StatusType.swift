@@ -5,7 +5,7 @@
 //  Created by goboogie on 2021/08/15.
 //
 
-enum StatusType:Int
+enum StatusType:Int,Codable
 {
     case health = 0
     case mental

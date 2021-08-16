@@ -13,7 +13,7 @@ struct DialogueOptionView: View {
         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
             HStack(alignment: .center, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
                 HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
-                    ForEach(option.condition) { condition in
+                    ForEach(option.conditions) { condition in
                         ConditionView(condition: condition)
                     }
                 })
@@ -32,6 +32,6 @@ struct DialogueOptionView: View {
 
 struct DialogOptionView_Previews: PreviewProvider {
     static var previews: some View {
-        DialogueOptionView(option: DialogueOption(id:2,condition: [Condition(id:1,condition: .over, status: .health, statusValue: 2)], result: [EventResult.init(id:1,result: .add, status: .health, statusValue: 3)], content: "상대에게 방구를 날린다."))
+        DialogueOptionView(option: DialogueOption(id:2,conditions: [Condition(id:1,condition: .over, status: .health, statusValue: 2)], results: [EventResult.init(id:1,result: .add, status: .health, statusValue: 3)], content: "상대에게 방구를 날린다."))
     }
 }

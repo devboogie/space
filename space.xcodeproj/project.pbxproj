@@ -20,6 +20,7 @@
 		0A3EE65D26C9574400F1925A /* Dialogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EE65C26C9574400F1925A /* Dialogue.swift */; };
 		0AF7FCAF26C97AEC00FA16B4 /* GameTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7FCAE26C97AEC00FA16B4 /* GameTabView.swift */; };
 		0AF7FCB326C97B1700FA16B4 /* StatusTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7FCB226C97B1700FA16B4 /* StatusTabView.swift */; };
+		0AF7FCB526C9F02300FA16B4 /* ModalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7FCB426C9F02300FA16B4 /* ModalData.swift */; };
 		0AFA6F2E26C96228007992A7 /* ConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFA6F2D26C96228007992A7 /* ConditionView.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		0A3EE65C26C9574400F1925A /* Dialogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialogue.swift; sourceTree = "<group>"; };
 		0AF7FCAE26C97AEC00FA16B4 /* GameTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTabView.swift; sourceTree = "<group>"; };
 		0AF7FCB226C97B1700FA16B4 /* StatusTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTabView.swift; sourceTree = "<group>"; };
+		0AF7FCB426C9F02300FA16B4 /* ModalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalData.swift; sourceTree = "<group>"; };
 		0AFA6F2D26C96228007992A7 /* ConditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,9 +95,9 @@
 		0A3EE64C26C935E100F1925A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0A3EE63F26C9354800F1925A /* ContentView.swift */,
 				0AF7FCB126C97B0600FA16B4 /* Status */,
 				0AF7FCB026C97AF100FA16B4 /* Game */,
-				0A3EE63F26C9354800F1925A /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -106,6 +108,7 @@
 				0A3EE65226C93EE100F1925A /* Player.swift */,
 				0A3EE65626C952C300F1925A /* StatusType.swift */,
 				0A3EE65C26C9574400F1925A /* Dialogue.swift */,
+				0AF7FCB426C9F02300FA16B4 /* ModalData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				0AFA6F2E26C96228007992A7 /* ConditionView.swift in Sources */,
 				0A3EE63E26C9354800F1925A /* spaceApp.swift in Sources */,
 				0A3EE65726C952C300F1925A /* StatusType.swift in Sources */,
+				0AF7FCB526C9F02300FA16B4 /* ModalData.swift in Sources */,
 				0A3EE65026C9368400F1925A /* StatusView.swift in Sources */,
 				0A3EE65526C94E1400F1925A /* StatusDetailView.swift in Sources */,
 				0A3EE65926C9571600F1925A /* DialogueOptionView.swift in Sources */,
