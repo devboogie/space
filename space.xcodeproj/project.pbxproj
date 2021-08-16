@@ -21,6 +21,7 @@
 		0AF7FCAF26C97AEC00FA16B4 /* GameTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7FCAE26C97AEC00FA16B4 /* GameTabView.swift */; };
 		0AF7FCB326C97B1700FA16B4 /* StatusTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7FCB226C97B1700FA16B4 /* StatusTabView.swift */; };
 		0AF7FCB526C9F02300FA16B4 /* ModalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7FCB426C9F02300FA16B4 /* ModalData.swift */; };
+		0AF7FCB726C9F72E00FA16B4 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 0AF7FCB626C9F72E00FA16B4 /* Resources */; };
 		0AFA6F2E26C96228007992A7 /* ConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFA6F2D26C96228007992A7 /* ConditionView.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		0AF7FCAE26C97AEC00FA16B4 /* GameTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTabView.swift; sourceTree = "<group>"; };
 		0AF7FCB226C97B1700FA16B4 /* StatusTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTabView.swift; sourceTree = "<group>"; };
 		0AF7FCB426C9F02300FA16B4 /* ModalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalData.swift; sourceTree = "<group>"; };
+		0AF7FCB626C9F72E00FA16B4 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 		0AFA6F2D26C96228007992A7 /* ConditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 		0A3EE63C26C9354800F1925A /* space */ = {
 			isa = PBXGroup;
 			children = (
+				0AF7FCB626C9F72E00FA16B4 /* Resources */,
 				0A3EE65126C93ECF00F1925A /* Model */,
 				0A3EE64C26C935E100F1925A /* View */,
 				0A3EE63D26C9354800F1925A /* spaceApp.swift */,
@@ -201,6 +204,7 @@
 			files = (
 				0A3EE64526C9354900F1925A /* Preview Assets.xcassets in Resources */,
 				0A3EE64226C9354900F1925A /* Assets.xcassets in Resources */,
+				0AF7FCB726C9F72E00FA16B4 /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

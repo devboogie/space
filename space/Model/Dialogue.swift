@@ -10,7 +10,7 @@ import Foundation
 struct Dialogue : Hashable,Codable, Identifiable {
     var id: Int
     var content:String
-    var options : [DialogueOption]
+    var options : [Int]
     
     static func == (lhs: Dialogue, rhs: Dialogue) -> Bool {
         return lhs.id == (rhs.id);
@@ -19,8 +19,8 @@ struct Dialogue : Hashable,Codable, Identifiable {
 
 struct DialogueOption : Hashable,Codable,Identifiable{
     var id: Int
-    var conditions : [Condition]
-    var results : [EventResult]
+    var conditions : [Int]
+    var results : [Int]
     var content:String
 }
 
